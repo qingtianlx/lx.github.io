@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		div, h1 {
+			/*块转行内*/
+			/*display: inline;*/
+		}
+		span, a, img, input {
+			/*行内元素、行内块元素转块元素*/
+			/*display: block;*/
+		}
+		div, h1, span, a {
+			/*块、行内元素转行内块元素*/
+			display: inline-block;
+		}
+	</style>
+</head>
+<body>
+	<div>哈哈哈</div>
+	<h1>么么哒</h1>
+	<span>吼吼吼</span>
+	<a href="#">行内元素</a>
+	<img src="qt.jpg" alt="">
+	<input type="text" value="key">
+</body>
+</html>
